@@ -1,29 +1,35 @@
 # AI Legal Metrology Product Scanner
 
-AI Legal Metrology Product Scanner is a concept for scanning packaged-product labels and validating declared information with OCR.
+A concept for scanning packaged-product labels and validating declared information with OCR.
 
-**Status:** Concept · Idea stage — this repository holds the concept landing page only.
-There is no working prototype yet.
+**Status:** Concept — this repository holds the landing page only. There is no working prototype yet.
 
-- **Live page:** https://suman876-ops.github.io/ai-legal-metrology-scanner/
-- **Portfolio:** https://suman876-ops.github.io/suman-portfolio/
+**Live:** https://suman876-ops.github.io/ai-legal-metrology-scanner/
 
-## What's here
+## Overview
+
+Packaged goods carry declarations that regulators must verify at scale — net quantity, MRP, manufacturing and expiry dates, manufacturer details. This concept explores using OCR plus rule checks to flag mismatches automatically instead of by hand.
+
+## Contents
 
 ```
-index.html      the whole page — HTML, CSS and a little JavaScript
-assets/og.png   1200x630 share / hero image
-favicon.svg     site icon
+index.html       the whole page — HTML, CSS and a little JavaScript
+assets/og.png    1200x630 share image
+favicon.svg      site icon
 ```
 
-## Running locally
+## Run locally
 
 No build step. Open `index.html`, or serve the folder:
 
-```
+```bash
 python3 -m http.server 8000
 ```
 
-## Credits
+## Author
 
-Built by [Suman Mahata](https://suman876-ops.github.io/suman-portfolio/). Typography by Google Fonts (Space Grotesk, JetBrains Mono).
+Suman Mahata — [portfolio](https://suman876-ops.github.io/suman-portfolio/)
+
+## License
+
+MIT
